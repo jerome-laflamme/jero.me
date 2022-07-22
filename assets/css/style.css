@@ -51,7 +51,7 @@ header nav ul li {
     margin: 0 25px;
 }
 
-main {
+.centered-layout {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,11 +81,18 @@ main {
     margin: -5vw;
 }
 
+main img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
 .particle {
     background-color: rgb(31, 90, 90);
     height: 2vh;
     width: 2vh;
     margin: 0.5vh;
+    border-radius: 20%;
 
     /* PARTICLE ANMIATION */
     -webkit-animation: alternate-reverse;
@@ -105,7 +112,7 @@ main {
     }
 
     67% {
-        -webkit-transform: rotate(180deg) scale(1.2);
+        -webkit-transform: rotate(180deg) scale(1.7);
     }
 
     100% {
@@ -113,16 +120,401 @@ main {
     }
 }
 
+/* DELAY EFFECT */
 
-/* .particle:nth-child(3n) {
-    -webkit-animation-delay: 0s
+.particle:nth-child(99n + 1) {
+    -webkit-animation-delay: 0.1s
 }
 
-.particle:nth-child(3n + 1) {
-    -webkit-animation-delay: 2s
+.particle:nth-child(99n + 2) {
+    -webkit-animation-delay: 0.2s
 }
 
-.particle:nth-child(3n + 2) {
-    -webkit-animation-delay: 4s;
-} */
+.particle:nth-child(99n + 3) {
+    -webkit-animation-delay: 0.3s
+}
+
+.particle:nth-child(99n + 4) {
+    -webkit-animation-delay: 0.4s
+}
+
+.particle:nth-child(99n + 5) {
+    -webkit-animation-delay: 0.5s
+}
+
+.particle:nth-child(99n + 6) {
+    -webkit-animation-delay: 0.6s
+}
+
+.particle:nth-child(99n + 7) {
+    -webkit-animation-delay: 0.7s
+}
+
+.particle:nth-child(99n + 8) {
+    -webkit-animation-delay: 0.8s
+}
+
+.particle:nth-child(99n + 9) {
+    -webkit-animation-delay: 0.9s
+}
+
+.particle:nth-child(99n + 10) {
+    -webkit-animation-delay: 0.10s
+}
+
+.particle:nth-child(99n + 11) {
+    -webkit-animation-delay: 0.11s
+}
+
+.particle:nth-child(99n + 12) {
+    -webkit-animation-delay: 0.12s
+}
+
+.particle:nth-child(99n + 13) {
+    -webkit-animation-delay: 0.13s
+}
+
+.particle:nth-child(99n + 14) {
+    -webkit-animation-delay: 0.14s
+}
+
+.particle:nth-child(99n + 15) {
+    -webkit-animation-delay: 0.15s
+}
+
+.particle:nth-child(99n + 16) {
+    -webkit-animation-delay: 0.16s
+}
+
+.particle:nth-child(99n + 17) {
+    -webkit-animation-delay: 0.17s
+}
+
+.particle:nth-child(99n + 18) {
+    -webkit-animation-delay: 0.18s
+}
+
+.particle:nth-child(99n + 19) {
+    -webkit-animation-delay: 0.19s
+}
+
+.particle:nth-child(99n + 20) {
+    -webkit-animation-delay: 0.20s
+}
+
+.particle:nth-child(99n + 21) {
+    -webkit-animation-delay: 0.21s
+}
+
+.particle:nth-child(99n + 22) {
+    -webkit-animation-delay: 0.22s
+}
+
+.particle:nth-child(99n + 23) {
+    -webkit-animation-delay: 0.23s
+}
+
+.particle:nth-child(99n + 24) {
+    -webkit-animation-delay: 0.24s
+}
+
+.particle:nth-child(99n + 25) {
+    -webkit-animation-delay: 0.25s
+}
+
+.particle:nth-child(99n + 26) {
+    -webkit-animation-delay: 0.26s
+}
+
+.particle:nth-child(99n + 27) {
+    -webkit-animation-delay: 0.27s
+}
+
+.particle:nth-child(99n + 28) {
+    -webkit-animation-delay: 0.28s
+}
+
+.particle:nth-child(99n + 29) {
+    -webkit-animation-delay: 0.29s
+}
+
+.particle:nth-child(99n + 30) {
+    -webkit-animation-delay: 0.30s
+}
+
+.particle:nth-child(99n + 31) {
+    -webkit-animation-delay: 0.31s
+}
+
+.particle:nth-child(99n + 32) {
+    -webkit-animation-delay: 0.32s
+}
+
+.particle:nth-child(99n + 33) {
+    -webkit-animation-delay: 0.33s
+}
+
+.particle:nth-child(99n + 34) {
+    -webkit-animation-delay: 0.34s
+}
+
+.particle:nth-child(99n + 35) {
+    -webkit-animation-delay: 0.35s
+}
+
+.particle:nth-child(99n + 36) {
+    -webkit-animation-delay: 0.36s
+}
+
+.particle:nth-child(99n + 37) {
+    -webkit-animation-delay: 0.37s
+}
+
+.particle:nth-child(99n + 38) {
+    -webkit-animation-delay: 0.38s
+}
+
+.particle:nth-child(99n + 39) {
+    -webkit-animation-delay: 0.39s
+}
+
+.particle:nth-child(99n + 40) {
+    -webkit-animation-delay: 0.40s
+}
+
+.particle:nth-child(99n + 41) {
+    -webkit-animation-delay: 0.41s
+}
+
+.particle:nth-child(99n + 42) {
+    -webkit-animation-delay: 0.42s
+}
+
+.particle:nth-child(99n + 43) {
+    -webkit-animation-delay: 0.43s
+}
+
+.particle:nth-child(99n + 44) {
+    -webkit-animation-delay: 0.44s
+}
+
+.particle:nth-child(99n + 45) {
+    -webkit-animation-delay: 0.45s
+}
+
+.particle:nth-child(99n + 46) {
+    -webkit-animation-delay: 0.46s
+}
+
+.particle:nth-child(99n + 47) {
+    -webkit-animation-delay: 0.47s
+}
+
+.particle:nth-child(99n + 48) {
+    -webkit-animation-delay: 0.48s
+}
+
+.particle:nth-child(99n + 49) {
+    -webkit-animation-delay: 0.49s
+}
+
+.particle:nth-child(99n + 50) {
+    -webkit-animation-delay: 0.50s
+}
+
+.particle:nth-child(99n + 51) {
+    -webkit-animation-delay: 0.51s
+}
+
+.particle:nth-child(99n + 52) {
+    -webkit-animation-delay: 0.52s
+}
+
+.particle:nth-child(99n + 53) {
+    -webkit-animation-delay: 0.53s
+}
+
+.particle:nth-child(99n + 54) {
+    -webkit-animation-delay: 0.54s
+}
+
+.particle:nth-child(99n + 55) {
+    -webkit-animation-delay: 0.55s
+}
+
+.particle:nth-child(99n + 56) {
+    -webkit-animation-delay: 0.56s
+}
+
+.particle:nth-child(99n + 57) {
+    -webkit-animation-delay: 0.57s
+}
+
+.particle:nth-child(99n + 58) {
+    -webkit-animation-delay: 0.58s
+}
+
+.particle:nth-child(99n + 59) {
+    -webkit-animation-delay: 0.59s
+}
+
+.particle:nth-child(99n + 60) {
+    -webkit-animation-delay: 0.60s
+}
+
+.particle:nth-child(99n + 61) {
+    -webkit-animation-delay: 0.61s
+}
+
+.particle:nth-child(99n + 62) {
+    -webkit-animation-delay: 0.62s
+}
+
+.particle:nth-child(99n + 63) {
+    -webkit-animation-delay: 0.63s
+}
+
+.particle:nth-child(99n + 64) {
+    -webkit-animation-delay: 0.64s
+}
+
+.particle:nth-child(99n + 65) {
+    -webkit-animation-delay: 0.65s
+}
+
+.particle:nth-child(99n + 66) {
+    -webkit-animation-delay: 0.66s
+}
+
+.particle:nth-child(99n + 67) {
+    -webkit-animation-delay: 0.67s
+}
+
+.particle:nth-child(99n + 68) {
+    -webkit-animation-delay: 0.68s
+}
+
+.particle:nth-child(99n + 69) {
+    -webkit-animation-delay: 0.69s
+}
+
+.particle:nth-child(99n + 70) {
+    -webkit-animation-delay: 0.70s
+}
+
+.particle:nth-child(99n + 71) {
+    -webkit-animation-delay: 0.71s
+}
+
+.particle:nth-child(99n + 72) {
+    -webkit-animation-delay: 0.72s
+}
+
+.particle:nth-child(99n + 73) {
+    -webkit-animation-delay: 0.73s
+}
+
+.particle:nth-child(99n + 74) {
+    -webkit-animation-delay: 0.74s
+}
+
+.particle:nth-child(99n + 75) {
+    -webkit-animation-delay: 0.75s
+}
+
+.particle:nth-child(99n + 76) {
+    -webkit-animation-delay: 0.76s
+}
+
+.particle:nth-child(99n + 77) {
+    -webkit-animation-delay: 0.77s
+}
+
+.particle:nth-child(99n + 78) {
+    -webkit-animation-delay: 0.78s
+}
+
+.particle:nth-child(99n + 79) {
+    -webkit-animation-delay: 0.79s
+}
+
+.particle:nth-child(99n + 80) {
+    -webkit-animation-delay: 0.80s
+}
+
+.particle:nth-child(99n + 81) {
+    -webkit-animation-delay: 0.81s
+}
+
+.particle:nth-child(99n + 82) {
+    -webkit-animation-delay: 0.82s
+}
+
+.particle:nth-child(99n + 83) {
+    -webkit-animation-delay: 0.83s
+}
+
+.particle:nth-child(99n + 84) {
+    -webkit-animation-delay: 0.84s
+}
+
+.particle:nth-child(99n + 85) {
+    -webkit-animation-delay: 0.85s
+}
+
+.particle:nth-child(99n + 86) {
+    -webkit-animation-delay: 0.86s
+}
+
+.particle:nth-child(99n + 87) {
+    -webkit-animation-delay: 0.87s
+}
+
+.particle:nth-child(99n + 88) {
+    -webkit-animation-delay: 0.88s
+}
+
+.particle:nth-child(99n + 89) {
+    -webkit-animation-delay: 0.89s
+}
+
+.particle:nth-child(99n + 90) {
+    -webkit-animation-delay: 0.90s
+}
+
+.particle:nth-child(99n + 91) {
+    -webkit-animation-delay: 0.91s
+}
+
+.particle:nth-child(99n + 92) {
+    -webkit-animation-delay: 0.92s
+}
+
+.particle:nth-child(99n + 93) {
+    -webkit-animation-delay: 0.93s
+}
+
+.particle:nth-child(99n + 94) {
+    -webkit-animation-delay: 0.94s
+}
+
+.particle:nth-child(99n + 95) {
+    -webkit-animation-delay: 0.95s
+}
+
+.particle:nth-child(99n + 96) {
+    -webkit-animation-delay: 0.96s
+}
+
+.particle:nth-child(99n + 97) {
+    -webkit-animation-delay: 0.97s
+}
+
+.particle:nth-child(99n + 98) {
+    -webkit-animation-delay: 0.98s
+}
+
+.particle:nth-child(99n + 99) {
+    -webkit-animation-delay: 0.99s
+}
 

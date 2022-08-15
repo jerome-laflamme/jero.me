@@ -104,11 +104,11 @@ main img {
 
 @keyframes rotateNscale {
     0% {
-        -webkit-transform: rotate(0) scale(1) translateX(2vh);
+        -webkit-transform: rotate(0) scale(2) translateX(2vh);
     }
 
     33% {
-        -webkit-transform: rotate(90deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(1.2);
     }
 
     67% {
@@ -116,7 +116,7 @@ main img {
     }
 
     100% {
-        -webkit-transform: rotate(360deg) scale(1) translateX(-2vh);
+        -webkit-transform: rotate(360deg) scale(1.2) translateX(-2vh);
     }
 }
 
